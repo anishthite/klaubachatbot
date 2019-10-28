@@ -22,7 +22,6 @@ networkx==2.3
 nltk==3.4.3
 numpy==1.16.4
 Pillow==6.0.0
-pkg-resources==0.0.0
 progressbar2==3.39.3
 protobuf==3.8.0
 pyparsing==2.4.0

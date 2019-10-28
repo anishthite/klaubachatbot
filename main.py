@@ -93,11 +93,9 @@ if __name__ == "__main__":
     #optimizer = tf.optimizers.Adam(learning_rate=0.001)
     #model_.train()
 
-    seeds = ["happy birthday have a nice day",
-                 "donald trump won last nights presidential debate according to snap online polls"]
 
-
-    for seed in seeds:
+    while True:
+        seed = input("Enter input:")
         print("Query >", seed)
         top_n = 3
         for i in range(top_n):
