@@ -1,0 +1,8 @@
+Hello
+Hey
+Hi
+Take me to room 2337
+Turn Left
+Turn Right
+Go forward 5 seconds
+run map
