@@ -82,7 +82,7 @@ def load_compare(query):
         index2word_set = set(model.wv.index2word)
         return compare(query, commandlist, model, index2word_set)
 
-def 
+#TODO: train on new dic, map to command, map to reply, actual reply code 
 
 if __name__ == '__main__':
     #train w2v code
@@ -92,10 +92,10 @@ if __name__ == '__main__':
     #generate_pickle_command_dic(read_command_file())
 
     #run code
-    query = input('Enter query')
+    query = raw_input('Enter query')
     
     import time
     start = time.time()
-    print(load_compare('load'))
+    print(load_compare(query))
     end = time.time()
     print(end - start)
